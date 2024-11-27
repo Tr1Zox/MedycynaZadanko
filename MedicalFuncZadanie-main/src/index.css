@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+a{cursor: pointer;}
+
+.h-section{height:400px;}
+.h-section-x{height: 600px;}
+.left-img{left: calc(50% - 16px)}
+.w-img{width: calc(33.3%  - 288px)}
+.line-h{line-height: 96px;}
+.w-tag{width:calc(33.3% - 138px)}
